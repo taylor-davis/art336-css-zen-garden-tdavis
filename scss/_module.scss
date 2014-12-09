@@ -1,0 +1,59 @@
+/* 
+Module Rules - look
+    A Module is a more discrete component of the page. It is your navigation bars and your carousels and your dialogs and your widgets and so on. This is the meat of the page. Modules sit inside Layout components. Modules can sometimes sit within other Modules, too. Each Module should be designed to exist as a standalone component. In doing so, the page will be more flexible. If done right, Modules can easily be moved to different parts of the layout without breaking.
+    When defining the rule set for a module, avoid using IDs and element selectors, sticking only to class names. A module will likely contain a number of elements and there is likely to be a desire to use descendent or child selectors to target those elements. 
+*/
+
+#zen-preamble {
+    position: absolute;
+    height: 320px;
+    margin-bottom: 100px;
+    margin-right: 120px;
+    margin-left: 50px;
+    padding: 6px;
+    top: 100px;
+}
+
+#zen-explanation, #zen-benefits {
+    position: relative;
+    margin: relative;
+}
+
+#zen-participation, #zen-requirements {
+    position: relative;
+}
+
+h2 { 
+    position: absolute;
+    margin: 35px;
+    left: 965px; 
+    top: 75px;
+    height: 150px;
+    width: 250px;
+    display: table;
+    padding: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h3 {
+    position: relative;
+}
+
+#zen-resources {
+    background:rgba(179, 151, 209, 0.63);
+    border-radius: 15px;
+}
+
+footer {
+    background:rgba(179, 151, 209, 0.63);
+    border-radius: 15px;
+    font-size: 30px;
+    line-height: 60px;
+    height: 330px;
+    width: 85px;
+    position: absolute;
+    left: 975px;
+    top: 1250px;
+    text-align: center;
+}

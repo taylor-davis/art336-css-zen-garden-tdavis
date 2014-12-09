@@ -1,0 +1,18 @@
+/* 
+State Rules
+    A state is something that augments and overrides all other styles. For example, an accordion section may be in a collapsed or expanded state. A message may be in a success or error state.
+    States are generally applied to the same element as a layout rule or applied to the same element as a base module class. 
+*/
+
+// Grid variables
+$desktop: 1140px;
+$tablet: 768px;
+$mobile: 550px;
+$gutter: 14px;
+$padding: 6px;
+
+.main-supporting .zen-explanation { 
+    @media screen and (min-width: $tablet) {
+        width: calc(75% - #{$gutter});
+    }
+}

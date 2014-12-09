@@ -1,0 +1,113 @@
+/* 
+Layout Rules - moving
+    CSS, by its very nature, is used to lay elements out on the page. However, there is a distinction between layouts dictating the major and minor components of a page. The minor components—such as a callout, or login form, or a navigation item—sit within the scope of major components such as a header or footer. I refer to the minor components as Modules and will dive into those in the next section. The major components are referred to as Layout styles.
+    Layout styles can also be divided into major and minor styles based on reuse. Major layout styles such as header and footer are traditionally styled using ID selectors but take the time to think about the elements that are common across all components of the page and use class selectors where appropriate.
+*/
+//
+//.sidebar {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   top: 50vh;
+//   width: 20%;
+//   @media screen and (max-width: $tablet) {
+//   position: static;
+//   width: 100%;
+//   }
+//}
+
+h1 {
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+
+h2 {
+    margin-bottom: 60px;
+    position: absolute;
+    left: 1115px;
+    top: 42px;
+    line-height: 30px;
+    transform: rotate(90deg);
+}
+
+#zen-explanation {
+    position: absolute;
+    left: 80px;
+    right: 20px;
+    top: 90px;
+    text-align: right;
+}
+
+#zen-participation {
+    background:rgba(152, 180, 255, 0.49);
+    padding: 5px;
+    position: absolute;
+    margin: 15px;
+    right: 18px;
+    top: 26px;
+    text-align: right;
+}
+
+#zen-benefits {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    bottom: 0px;
+    text-align: right;
+}
+
+#zen-requirements {
+    background:rgba(152, 180, 255, 0.49);
+    position: absolute;
+    bottom: 5px;
+    right: 63px;
+    text-align: right;
+}
+
+#zen-summary {
+    position: relative;
+    left: 900px;
+    top: 165px;
+    margin-top: 60px;
+    text-align: right;
+}
+
+#design-selection {
+    width: 400px;
+    margin: 15px;
+    position: absolute;
+    left: 800px;
+    right: 0px;
+    top: 510px;
+    text-align: center;
+    
+}
+
+#design-archives {
+    width: 400px;
+    margin: 15px;
+    position: absolute;
+    left: 800px;
+    right: 0px;
+    top: 1060px;
+    text-align: center;
+}
+
+#zen-resources {
+    width: 400px;
+    margin: 15px;
+    position: absolute;
+    left: 800px;
+    right: 0px;
+    top: 810px;
+    text-align: center;   
+}
+
+ul {
+    list-style-type: none;
+}
+
